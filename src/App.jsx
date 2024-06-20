@@ -161,7 +161,6 @@ function App(){
 
 
       </Routes>
-      <Footer/>
     </BrowserRouter>
 
     </AuthContext.Provider>

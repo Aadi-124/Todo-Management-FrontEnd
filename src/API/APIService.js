@@ -2,6 +2,7 @@ import axios from "axios";
 import Auth from "../security/AuthContext";
 const apiClient = axios.create(
     {
+        // baseURL:"http://192.168.43.1:8080"
         baseURL:"http://localhost:8080"
     }
 );

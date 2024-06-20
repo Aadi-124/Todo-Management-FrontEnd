@@ -311,8 +311,8 @@ const setContext = (response)=>{
                     </div>
 
                     <div>
-                        <Link style={{ "margin": "47px", "cursor": "pointer" }} className="formlinks" onClick={forgotpassword}>Forgot Password?</Link>
-                        <Link style={{ "margin": "47px", "cursor": "pointer" }} className="formlinks" onClick={() => { navigate("/register") }}> Register </Link>
+                        <Link style={{ "margin": "30px", "cursor": "pointer" }} className="formlinks" onClick={forgotpassword}>Forgot Password?</Link>
+                        <Link style={{ "margin": "30px", "cursor": "pointer" }} className="formlinks" onClick={() => { navigate("/register") }}> Register </Link>
                     </div>
 
 
